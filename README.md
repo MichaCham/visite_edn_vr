@@ -23,9 +23,9 @@ Attentes à la fin du Projet :
 - [ ] Utiliser un système de déplacement ne générant pas de sensation de nausée à l'utilisateur, pour améliorer confort du joueur
 
 ## Environnement de développement
-|||
-|------------|------|
-| **Logiciel**   |Unity
+|Type            |Type        |
+|----------------|------------|
+| **Logiciel**   |Unity       |
 | **Casque  VR** |Meta Quest 2|
 
 ## Installation et lancement du projet
