@@ -1,0 +1,1600 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/David/master_project/visite_edn_vr
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53359
+Successfully changed project path to: C:/Users/David/master_project/visite_edn_vr
+C:/Users/David/master_project/visite_edn_vr
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5884] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2811831267 [EditorId] 2811831267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-44SRTKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5884] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2811831267 [EditorId] 2811831267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-44SRTKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 16.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path D:/unity/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/David/master_project/visite_edn_vr/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'D:/unity/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004290 seconds.
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 246 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 932ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (353ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.744 seconds
+Refreshing native plugins compatible for Editor in 7.37 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8e887700cd7e4674989da7b046e8eaa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 1516ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.92 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5941 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (352.3 KB). Loaded Objects now: 6403.
+Memory consumption went from 231.7 MB to 231.3 MB.
+Total: 4.484200 ms (FindLiveObjects: 0.579300 ms CreateObjectMapping: 0.674600 ms MarkObjects: 2.984800 ms  DeleteObjects: 0.244200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 576954.251010 seconds.
+  path: Assets/AssetsHandMade/Assets/backDoor.prefab
+  artifactKey: Guid(f67f86faa8390e945b84246a3d8f5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/backDoor.prefab using Guid(f67f86faa8390e945b84246a3d8f5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe6a389ab5675a6a93b97c2471d029c') in 0.289911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetsHandMade/Assets
+  artifactKey: Guid(187bda9fbc7161c4d9b57eb58a262218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets using Guid(187bda9fbc7161c4d9b57eb58a262218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3c460475dbd306f13d57d8ad18785a') in 0.000535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetsHandMade/Assets/OfficeWindow.prefab
+  artifactKey: Guid(7b434e99df2409e48b859ef9a4bbc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/OfficeWindow.prefab using Guid(7b434e99df2409e48b859ef9a4bbc9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535f4d1c3e0a407c2b6b3269bfb5845a') in 0.019456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetsHandMade/Assets/SmallWindow.prefab
+  artifactKey: Guid(912525073cf9d834899e98a21debccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/SmallWindow.prefab using Guid(912525073cf9d834899e98a21debccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829a91700d95c3af09b1fd2a79a3e2fe') in 0.015003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 10874.568844 seconds.
+  path: Assets/Models
+  artifactKey: Guid(b5b84bcee97687349b2235ecd0ae0474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(b5b84bcee97687349b2235ecd0ae0474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fd0d447a453b7558292be114447e3c') in 0.001716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.310836 seconds.
+  path: Assets/AssetsHandMade/Rooms/Bureau.prefab
+  artifactKey: Guid(29b024a6d655b5c43b4c58d928aa834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/Bureau.prefab using Guid(29b024a6d655b5c43b4c58d928aa834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7935abf5660df6ba574bf0023c0d09f6') in 0.026239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 6.057535 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(29b024a6d655b5c43b4c58d928aa834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(29b024a6d655b5c43b4c58d928aa834c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb3aed8be4fd7ba616a627564d062db') in 0.013291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 11528.038710 seconds.
+  path: Assets/AssetsHandMade/Assets/double_porte_en_bois.prefab
+  artifactKey: Guid(6e4e3788dda82a3479c886cbbdad6f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/double_porte_en_bois.prefab using Guid(6e4e3788dda82a3479c886cbbdad6f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59175719658132788c333235de98f9b7') in 0.097651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 22.693334 seconds.
+  path: Assets/AssetsHandMade/Bureau.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Bureau.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c14d80adbdcaff2099a19a4e8d3b30e') in 0.029948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 11.012717 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc07f387f2ac03ff6fb30947bc646af') in 0.016299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 5394.608665 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b539cbe77ac0ba709dc3bd9f2b502ea') in 0.008741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 233.396943 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8635e296ca4823087fa64c8173388972') in 0.029049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 19.533915 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae9d8f8cb624518895999460ea6f08e') in 0.025809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 8.448930 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cc0a44faa1e645b280c07d15edc3cf') in 0.019312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 562.484926 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bb0b930dba0723c6e8fd671882d198') in 0.017053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 5.238917 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cddbc234d3f258ac28c341f7643ad8b') in 0.031591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 631
+========================================================================
+Received Import Request.
+  Time since last request: 0.152923 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a58716ab1fdaab85fc53180893bcf7') in 0.017550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 641
+========================================================================
+Received Import Request.
+  Time since last request: 0.169256 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcfc55a9477137bec2d2f2efcef20d6') in 0.024995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 646
+========================================================================
+Received Import Request.
+  Time since last request: 1.387209 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9319a5d9b31d8141744cf4d0a0d193fb') in 0.016633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 636
+========================================================================
+Received Import Request.
+  Time since last request: 5.164369 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec27ef9c831df1d5a954120cb555de9') in 0.012506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 6.436012 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f499eba05771b48c2a91a409fc50a358') in 0.035314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 1.566821 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fa9d3b0a4fc0d626ce3da3953d0547') in 0.027315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 9.629911 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c62284b3f6261f0ba30c59b9b5dc78') in 0.014120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 2.389570 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77608b40e1463a92821244b8cb52312d') in 0.015427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 11.658687 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaf9a46f26af1abaa910e90a94a90a9') in 0.012486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 4.819701 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153e66030d233ee3da24300a8b9dda2a') in 0.013240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 12.474049 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91247502cbf674bb8ef6d46a89dea4eb') in 0.040648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 11.463539 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4544caade71c30c588fd34d4e5b7120') in 0.015536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 5.431312 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a52e985b498b546fc2f815968322e23') in 0.014596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 6.630716 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a3a3de2bb0f7eb67fe70188eaf3e3f') in 0.025802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 7.600306 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910fa949a2bcd93010944857915650cc') in 0.013782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 21.778309 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1ca58d8b8dcf5e700fb5b42f1bd2f6') in 0.013630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 73.336587 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c60c3197ce8b045f2739e9d483a133d') in 0.017560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 8.271056 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff0e722e5370d2b194e0e16889fb8d4') in 0.013936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 9.497258 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c686cd3f5fdf0ca51da3ac15aa4c0c') in 0.020139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 10.653383 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edae4a06d52a96476c3c9f3b1b9e310d') in 0.015001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 15.132988 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a924b48146cd810dd0332a784f607d') in 0.013450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 13.690802 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbec5ef0e2596c5b5309c2319123fdf') in 0.011988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 12.473130 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a42fef33623c9459c181bc1aa05f09') in 0.011221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 5.212844 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba240466e57fcfc6e29007bd0c82dc5b') in 0.015429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.821734 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c86317c3eaf1c658467a3e62d89c689') in 0.015157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 7.657624 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be6c1a149e7f04166f46bbc99236030') in 0.012564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.418346 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed07f11af16e3d18e347b2ba459e4fd') in 0.034308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 9.462531 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058f969dde2582c86ea7da2e01fc8b2d') in 0.016963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.592150 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f9363983ef61c3ec4535a010f70285') in 0.013449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 7.248617 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd198d546877a61bfa88f9a9e476721c') in 0.020602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 8.430894 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e894cedda75692fde3b611390e897735') in 0.013551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 4.613842 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4058433dc4eb5daa85475fe4a48c10f') in 0.016876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 5.214075 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1376bb0e6ef18d33c27cbb4bb970a00f') in 0.034622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 6.804542 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d8265e6e083b06a26780937f044251') in 0.013029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.816399 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eaab22a702260e1480ee142229f49ec') in 0.012445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.006659 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a1aa551622d40c923008e4858f1567') in 0.017579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.183495 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a9e97db1e8d4c6edcd3f940647e245') in 0.012422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 5.633866 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b849ee86c381d62a505343e66e738643') in 0.013405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 185.671817 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3914f107ab755e0f22a1ef66ffadbaac') in 0.014105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 2.993819 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f7e2f660fbdfe1a99e3b4809170ccc') in 0.012114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 1.995760 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d5e36811ba4371747477385e42d008') in 0.012856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 5.229719 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cae200e93920b61b109bd99ac7bbf09') in 0.017948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 17.935962 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44e1c36d452511b07d2548b853385bc') in 0.013967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 3.216841 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6da7c00f2af8b1d81be45b6f120b1d2') in 0.013176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 5.020241 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aec682b6e4ad50a4ddd774ba6b84820') in 0.014269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 6.419805 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95780de2f7c7fa2cc6739f245e7404ff') in 0.012189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 7.646010 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f9138d4dfa5cb432a4476a95369ca0') in 0.020564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 5.234823 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a74deb37ae94b53f1efda8c048f5871') in 0.038443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 3.770862 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1403e1c480a956f5b1ec1c5288f1e5b7') in 0.014887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 6.625470 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbae28632cfcf09de0cbbdb2e3a7d0a8') in 0.018986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 5.417944 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedb7694460cb8e1ef98f4bc053abe66') in 0.033821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 3.588113 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672d40133d04e3d47b3b4277f6bd23d6') in 0.012555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 22.184139 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4156142feaa2c8c910f9c72fe152c423') in 0.016068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 5.023521 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8e3494769ac735c1b00a9dd3ed99f') in 0.013803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 13.086941 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11b7b87fc0a0a1d1dd6a1c421bdf026') in 0.012963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 7.052845 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8077b6ffd180d5ba0e99275c47c98ab8') in 0.015292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 9.173930 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152ce7824dc3e4da6167265935730169') in 0.019708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 13.505745 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c371430f40aaf5b163326f609537f39a') in 0.014964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 1235.157680 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8318396a42d28bf53d397051d71953') in 0.019395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 508.910548 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7128be142be717a2246e8d34eb18231') in 0.023422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 28.792096 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1f4a09cbe5cf19c81a80c4bbd6833b') in 0.017303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 509
+========================================================================
+Received Import Request.
+  Time since last request: 5.417236 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19f9c133903608e7b67fd94a3041535') in 0.019613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 509
+========================================================================
+Received Import Request.
+  Time since last request: 280.964691 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c20fba027052ae2c2a20ea955d60b5') in 0.019082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 509
+========================================================================
+Received Import Request.
+  Time since last request: 2.194668 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1911e933ddf6d468471a045d31dd07a6') in 0.020833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 5.220140 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb0f8622a3d5a90c2d5fbe89fe19bf') in 0.019162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 6.626020 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffe318be59a95d8b2cc8ede9c21ef3d') in 0.015614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 4.197704 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f0cb901e9b90da47f99b3cfde7601a') in 0.016832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 4.612126 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a9a59783ebc77ee0e7ef9b821f8913') in 0.017752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 14.291710 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a7424c275d504185357fd38a702b2f') in 0.017630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 5.810092 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218ab8fc80c9cfb01bc2ea0e4aa2850a') in 0.020933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 537
+========================================================================
+Received Import Request.
+  Time since last request: 12.450364 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42e492ecedc6547c5c967d2e624f829') in 0.019812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 3.809947 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e360150feecd93ccb38d47f87e12ee4c') in 0.019567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 25.387854 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027a4860dadadb28769babebf839ed7e') in 0.017381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 6.021712 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd103acbe29df279b924bbf0c7eda44bb') in 0.016634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 4.198521 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3de5e3205323a46005b14f7493cbb99') in 0.016931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 109.788066 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b6ae1682dbd4043f768d3dfef5299') in 0.018035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 14.073972 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dba56bff840ce144c5aa29498d5d2c') in 0.038609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 44.598504 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5502cf2295c546e5c56246667246571a') in 0.017755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 3.809117 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f94357f7e583733c6d6f7fdf0b8c9a9') in 0.015357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 3.610514 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beda93646dcaae86517f1f4bc97cf2b') in 0.016196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 11.447012 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27c044bd8d05da314cc5e3f65972288') in 0.015501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 18.522368 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a028925fbc0803fdbd385fc58d97e0') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 6.432882 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38aacdc6aa802e1ba1356b4d3c517ffd') in 0.023463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 9.043429 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03fe120a0d7a205caa1c53286651047') in 0.023340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 8.086789 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca9069a00ea3217402a81ff8b10f29e') in 0.026446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 11.459896 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845179ed12b8898f0f8d489e37c0478a') in 0.019313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 28.122730 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad35949d6f2ed2ec2d9633950b1f60ba') in 0.021157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 24.438987 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052ac1f91bfe2c79b041dedeaaaa4894') in 0.016196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 7.428337 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1958451c1deaef9ab2cdf9810fbde170') in 0.019933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 7.436180 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944cc67719d18de2d81034413f55461c') in 0.017586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 5.602054 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc68a399ea6d7bb9ba612d153a5da5e') in 0.016537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 6.226941 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88599ef3318a5281e61676f0ce91a23') in 0.020019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 14.892143 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a00a9daa5a3d50b7c3cc5c2625b7f71') in 0.019382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 32.854517 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e910b18fc2e8119da53808b346e602') in 0.017518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 10.883031 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8641dc1c8c17b29d70434993afc1550') in 0.016637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 15.703079 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e72d49dd28cf8df057f355465ebc5ef') in 0.021326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 7.215366 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4688fee85a0c4c36368c7436ea2e960') in 0.021293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 30.609596 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f91bae63136f3ae96e7e559602e2cd') in 0.019531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 565
+========================================================================
+Received Import Request.
+  Time since last request: 18.000407 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f053ae540dbb57f0840a6dd316c1d73') in 0.018939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 593
+========================================================================
+Received Import Request.
+  Time since last request: 5.004093 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004b93e29ca26888102cf93ed253f0a7') in 0.017971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 593
+========================================================================
+Received Import Request.
+  Time since last request: 8.035061 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17fcdbd7b5185d411659d752d985cd3') in 0.031569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 593
+========================================================================
+Received Import Request.
+  Time since last request: 3.584945 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35907bd80ff28da9d8572b89349b850b') in 0.021853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 593
+========================================================================
+Received Import Request.
+  Time since last request: 8.635537 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa08684b6946464f075dd81825514e1') in 0.025633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 593
+========================================================================
+Received Import Request.
+  Time since last request: 27.318175 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bee85ad4833c0990223d6a1040317c') in 0.018722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 20.962529 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e5f6f56ab8d0125ce9c6b8ab865796') in 0.019954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 11.674440 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee5913cdd28f8169ff76d09417a8b04') in 0.017519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 14.492015 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a79a59c892cff7db4ef1fef368366d0') in 0.017954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 11.869729 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ff28bc6d5503409ef30840c787451f') in 0.017867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 14.500265 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92c806229eec3404db7464f97cbaf46') in 0.018214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 6.239218 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2c7fd7efb0ae886d22cd51f898a5a9') in 0.015422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 8.047636 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb6ffbc84dd2916575fa6195eaf19c1') in 0.027491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 10.040838 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569c95069d7128ebb94d9463af445637') in 0.019138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 6.034953 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6affebbd944cf21e6eb1aa29b17b8a1e') in 0.023630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 15.317302 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3ff129ce6cdfd403734e55079a7faa') in 0.015872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 12.285332 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb67c3b4d0a1d8a58c12a57decb521f') in 0.019478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 7.321187 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d96dc664e3cf942e52abef21b1a04aa') in 0.019660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 4.020711 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510df8da255e38a3b167e36cd0fa20b4') in 0.016202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 5.227036 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070ad103f3dab25a77d64c467290dd3d') in 0.014509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 9.661458 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a9e7ad14c1898fa36f50740be5a124') in 0.017044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 3.817302 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313fdc1b87a92f4f662698cf6314d706') in 0.014650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 598
+========================================================================
+Received Import Request.
+  Time since last request: 214.579643 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94801af95c0d15adbdaac79377f7e7b7') in 0.018710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 3.180844 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8767fe8d214786b856283a7b2f93ad') in 0.016312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 3.202095 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c206d2c4e5cb3300a77bda3a7edeaa61') in 0.018103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 8.644087 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7599d5ca44720251a2f467c61435a967') in 0.019910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 5.619017 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4df552314011c5c9ce89788e1cf3dc3') in 0.017026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 3.595968 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb30e257635ccf9e0438f6e54caa9e0') in 0.015399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 1.387974 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936ece19e02ea7a9aadb63f1add30fad') in 0.017671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 2.398258 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb210d087b6ae30451232fe10499b622') in 0.021638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 9.639585 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2919fb603aeb05e39d478bcad58201') in 0.026454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 3.592827 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ea2d57a3d25152e408d8f15109ce5d') in 0.016687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 7.640489 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf40a39b6877932b637db91428b1e954') in 0.018710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 10.225756 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca6425d0f406bcf237bd027f761a813') in 0.020122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 8.843325 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bb4b3ffb309dd274aab6989d0d8d38') in 0.016764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 5.210995 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfd96813c9f3edf3439b5be8fb063ba') in 0.017329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 11.256667 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0251bb49c20cfa7f94fc840c05929d7a') in 0.019235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 12.860133 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643fbbf4780ba4a33ddebc89e0733c3c') in 0.019589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 4.012997 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162d040276ecb7a16ba86a9b3b3c0e18') in 0.021470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 8.435419 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b3dba6411a9d1dea69588544eac438') in 0.019579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 6.618527 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b421cb329d8d884a284f1df9ce63d56e') in 0.018617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 686
+========================================================================
+Received Import Request.
+  Time since last request: 27.867726 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e2f002c13a97c1fadb895dd12e858a') in 0.017844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 1.991607 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b882b82c33b83ba412596d1884f4ae5') in 0.017607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 4.210801 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b20825b0587b48e070298f01e60fb40') in 0.018441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 13.292594 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34c6c29c49b63c9f1d8b5f289a14913') in 0.021856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 10.672051 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed3454005cf21f3cc83ffacf76d5a94') in 0.022017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 7.415090 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0410f6c970a515dd872b1634f803a9f8') in 0.019625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 5.629184 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e952d9f672875dfcbd72cacf3a80645a') in 0.023807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 6.011889 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8269edc1bf44bd4efe19cfb1c95e6f5') in 0.020410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 13.872665 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1b2de370dce7bd98c44ea58055306c') in 0.016852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 8.787794 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea369866204693980cd60b479f55aa82') in 0.019506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 8.649283 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c491f1208d3ae65f6fe0b619d9ee474') in 0.018784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 736
+========================================================================
+Received Import Request.
+  Time since last request: 12.472848 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c7bdee92d68356eadc25176e4a03d7') in 0.018951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 786
+========================================================================
+Received Import Request.
+  Time since last request: 4.409159 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e491cc8d1496f0ed73116ada5f044a') in 0.018545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 786
+========================================================================
+Received Import Request.
+  Time since last request: 8.659662 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0942b758b6d6caacd715537be0eff2d') in 0.036229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 786
+========================================================================
+Received Import Request.
+  Time since last request: 38.046357 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4af130be24597fb524d3e87d11749e') in 0.017305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 791
+========================================================================
+Received Import Request.
+  Time since last request: 1.379664 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08a869fa1c46448ab0eb76f11d2dba1') in 0.027980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 791
+========================================================================
+Received Import Request.
+  Time since last request: 6.625233 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b118b96ad52dbaecf7d7379bcfe2e5') in 0.017994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 791
+========================================================================
+Received Import Request.
+  Time since last request: 7.228288 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2245bd08a1ec8885ab838f63c49f55a8') in 0.021017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 791
+========================================================================
+Received Import Request.
+  Time since last request: 13.467370 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1fe09c214eb3d172c9715f35748ccd') in 0.019590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 791
