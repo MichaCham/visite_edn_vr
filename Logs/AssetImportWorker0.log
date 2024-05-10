@@ -15,7 +15,7 @@ C:/Users/David/master_project/visite_edn_vr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63813
+64360
 Successfully changed project path to: C:/Users/David/master_project/visite_edn_vr
 C:/Users/David/master_project/visite_edn_vr
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/David/master_project/visite_edn_vr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7584] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 602008018 [EditorId] 602008018 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-44SRTKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23348] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1085498613 [EditorId] 1085498613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-44SRTKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7584] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 602008018 [EditorId] 602008018 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-44SRTKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23348] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1085498613 [EditorId] 1085498613 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-44SRTKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 17.30 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.55 ms.
+Refreshing native plugins compatible for Editor in 15.48 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path D:/unity/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/David/master_project/visite_edn_vr/Assets
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'D:/unity/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/unity/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006365 seconds.
-- Loaded All Assemblies, in  0.800 seconds
+Registered in 0.004522 seconds.
+- Loaded All Assemblies, in  0.342 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 730 ms
+Android Extension - Scanning For ADB Devices 241 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.407 seconds
-Domain Reload Profiling: 2206ms
-	BeginReloadAssembly (119ms)
+- Finished resetting the current domain, in  0.578 seconds
+Domain Reload Profiling: 920ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (242ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (372ms)
-		LoadAssemblies (120ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (369ms)
-			TypeCache.Refresh (368ms)
-				TypeCache.ScanAssembly (352ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (128ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (1407ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (579ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1140ms)
+		SetupLoadedEditorAssemblies (519ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (971ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (356ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 2206ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.707 seconds
-Refreshing native plugins compatible for Editor in 16.17 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.708 seconds
+Refreshing native plugins compatible for Editor in 7.14 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -151,47 +151,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.725 seconds
-Domain Reload Profiling: 1430ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (151ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (45ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (462ms)
-		LoadAssemblies (326ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (329ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (167ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (725ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (738ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (536ms)
+		SetupLoadedEditorAssemblies (548ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 10.11 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 5940 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (391.8 KB). Loaded Objects now: 6402.
+Unloading 79 unused Assets / (352.6 KB). Loaded Objects now: 6401.
 Memory consumption went from 230.9 MB to 230.5 MB.
-Total: 4.862400 ms (FindLiveObjects: 1.021500 ms CreateObjectMapping: 0.704600 ms MarkObjects: 2.876400 ms  DeleteObjects: 0.258500 ms)
+Total: 3.656800 ms (FindLiveObjects: 0.571400 ms CreateObjectMapping: 0.477100 ms MarkObjects: 2.412700 ms  DeleteObjects: 0.194900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -208,189 +208,801 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 651325.380119 seconds.
+  Time since last request: 667197.208920 seconds.
   path: Assets/black.mat
   artifactKey: Guid(a8e55719c89ff1f458135b9a75e2714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/black.mat using Guid(a8e55719c89ff1f458135b9a75e2714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633a638ad0d134f5224558e0003cf652') in 1.209464 seconds
+Start importing Assets/black.mat using Guid(a8e55719c89ff1f458135b9a75e2714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2703adf94373b84e8aee5c6f5534255') in 1.716283 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b252eb80b5225e351025f05e40ce111') in 1.266350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 626
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AssetsHandMade/Rooms
+  artifactKey: Guid(8c3fc137093cfd64699ea7f88f214570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms using Guid(8c3fc137093cfd64699ea7f88f214570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1982b01c7415ec2343f2e2e2a0459d8b') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
   path: Assets/Bullet.prefab
   artifactKey: Guid(00f630880b7be7a44986de849c5a9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bullet.prefab using Guid(00f630880b7be7a44986de849c5a9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95012072425c2804fb590294de108c9') in 0.030640 seconds
+Start importing Assets/Bullet.prefab using Guid(00f630880b7be7a44986de849c5a9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb0623f8ee4711b453105a245ff1293') in 0.012238 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/teleportation anchor.mat
-  artifactKey: Guid(9e5f4678089640a448d133aa886e8fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/teleportation anchor.mat using Guid(9e5f4678089640a448d133aa886e8fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add13941f6d3b31285e167d6dc1d12bb') in 0.336330 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc07f387f2ac03ff6fb30947bc646af') in 0.029825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yellow.mat
+  artifactKey: Guid(c5322c8e8acf51d49b9a525b625abdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yellow.mat using Guid(c5322c8e8acf51d49b9a525b625abdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021e3171448e97693db3130059664458') in 0.021109 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/white.mat
-  artifactKey: Guid(796d58c3f5dd86e4ca3ca247a3d77fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/white.mat using Guid(796d58c3f5dd86e4ca3ca247a3d77fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc7e0daf9e79b04039baaaf607785b3') in 0.019835 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Controller.prefab
+  artifactKey: Guid(d94fdac0807e9ee4e9336618c4400fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Controller.prefab using Guid(d94fdac0807e9ee4e9336618c4400fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5c48897dc650608823b456b0750af8') in 0.016879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Glass.mat
+  artifactKey: Guid(665cbdf5ae97cb949905a892f8f07724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glass.mat using Guid(665cbdf5ae97cb949905a892f8f07724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c60dfd0f39734c0e7f6a02ffbd7097d') in 0.020825 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.567 seconds
-Refreshing native plugins compatible for Editor in 6.87 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8e887700cd7e4674989da7b046e8eaa6>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.186 seconds
-Domain Reload Profiling: 1749ms
-	BeginReloadAssembly (166ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (332ms)
-		LoadAssemblies (269ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (100ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1186ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 6.76 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 5777 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (359.8 KB). Loaded Objects now: 6486.
-Memory consumption went from 206.2 MB to 205.9 MB.
-Total: 3.396400 ms (FindLiveObjects: 0.499600 ms CreateObjectMapping: 0.485900 ms MarkObjects: 2.306100 ms  DeleteObjects: 0.104200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1fe09c214eb3d172c9715f35748ccd') in 0.024522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 791
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.05 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 6486.
-Memory consumption went from 117.2 MB to 116.9 MB.
-Total: 3.632700 ms (FindLiveObjects: 0.438700 ms CreateObjectMapping: 0.372800 ms MarkObjects: 2.757600 ms  DeleteObjects: 0.063000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b11e6936975384c89f4f7e6268c69a') in 0.002597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.24 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (329.1 KB). Loaded Objects now: 6486.
-Memory consumption went from 116.4 MB to 116.0 MB.
-Total: 4.168300 ms (FindLiveObjects: 0.553200 ms CreateObjectMapping: 0.435900 ms MarkObjects: 3.102000 ms  DeleteObjects: 0.076100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c01cc4fdaf1e1f0b1f6ff3d3590f0') in 0.020586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 323
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.21 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 6486.
-Memory consumption went from 116.4 MB to 116.0 MB.
-Total: 3.171000 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.445700 ms MarkObjects: 2.194600 ms  DeleteObjects: 0.073200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HandPrefabRight.prefab
+  artifactKey: Guid(06232421213080e47884cfe4f5a1aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPrefabRight.prefab using Guid(06232421213080e47884cfe4f5a1aefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3992bf2ec33b71dbfd5243fb0f63b6fe') in 0.001759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/white.mat
+  artifactKey: Guid(796d58c3f5dd86e4ca3ca247a3d77fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/white.mat using Guid(796d58c3f5dd86e4ca3ca247a3d77fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18175edd1f153ca0937590ca9cc0fb47') in 0.021778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.173402 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3acf279d402a5274cbb08992a7f8742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3acf279d402a5274cbb08992a7f8742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aac194bd212d111e904df3aef4a21a') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.906531 seconds.
+  path: Assets/Scenes/EDN.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EDN.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa848ad8c168b638b2da9c46630a81e3') in 0.000495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2193.119777 seconds.
+  path: Assets/AssetsHandMade/Assets/backDoor.prefab
+  artifactKey: Guid(f67f86faa8390e945b84246a3d8f5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/backDoor.prefab using Guid(f67f86faa8390e945b84246a3d8f5606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe6a389ab5675a6a93b97c2471d029c') in 0.028739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetsHandMade/Assets/OutsideWindow.prefab
+  artifactKey: Guid(e0bee2a69f1540040a718e99baef05df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/OutsideWindow.prefab using Guid(e0bee2a69f1540040a718e99baef05df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0551152c5ce8ed94f3791d98b03b9eb6') in 0.012238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetsHandMade/Assets/DoorWindow.prefab
+  artifactKey: Guid(c2ba70f830204a54e93a24587a6ff6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/DoorWindow.prefab using Guid(c2ba70f830204a54e93a24587a6ff6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8916e5e9c4df0f86435c97b429026eb6') in 0.014247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetsHandMade/Assets/SmallWindow.prefab
+  artifactKey: Guid(912525073cf9d834899e98a21debccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Assets/SmallWindow.prefab using Guid(912525073cf9d834899e98a21debccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829a91700d95c3af09b1fd2a79a3e2fe') in 0.012289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 10.661286 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec488f4466f72b28845cc33852ae1ec') in 0.035454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 5.122336 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95963303db3dd231c31181ab3c33053a') in 0.019114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 11.656878 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cb66e41fbc1d29b4b0e7e7d100504f') in 0.033406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 3.587062 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2efe06b0c3d23892759a87d8372626') in 0.019320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 2.382690 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410c4364418d5edd04f493f762dc7b24') in 0.014892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 5.224707 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281359408088ff1c56af8a88172255ce') in 0.017121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 5.838631 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edfed1a23d315fed13f850b026d245b') in 0.016150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 632
+========================================================================
+Received Import Request.
+  Time since last request: 1.397442 seconds.
+  path: Assets/AssetsHandMade/Rooms/DataLab.prefab
+  artifactKey: Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/DataLab.prefab using Guid(d8c54771338d51c439d01a03a48a6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927bb6e8c61f456161a8c9e59d9c3b99') in 0.015766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 627
+========================================================================
+Received Import Request.
+  Time since last request: 21152.115029 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dec83135a3aaeb7a10dbd1d8f63449') in 0.291002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 844
+========================================================================
+Received Import Request.
+  Time since last request: 1.457365 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2473dabefedb5a1f947e769d5065d787') in 0.028098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 844
+========================================================================
+Received Import Request.
+  Time since last request: 1.784175 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bea3a693c42c1725f8239c040b5e75') in 0.023037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 5.381168 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65f7cc6dc5eef6ba1f8d303f62d6cea') in 0.022408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 5.417124 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e9e6dadc495539d723c8b217d551ef') in 0.025690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 5.845075 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414e467af4625f0bd70935326e103115') in 0.021150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 3.000320 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b3e2d873154db22e39851b598125dc') in 0.025386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 3.803766 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4023b6243226b080593d0545f6b712') in 0.028215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 850
+========================================================================
+Received Import Request.
+  Time since last request: 3.194249 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d5f840571f90e9b1678644a7be14ac') in 0.057036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 845
+========================================================================
+Received Import Request.
+  Time since last request: 11.449879 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4272d79c5c4add4e5d79d9809963c676') in 0.024190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 845
+========================================================================
+Received Import Request.
+  Time since last request: 6.607528 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa37494b64ee262fc2567ef50f79482') in 0.032900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 845
+========================================================================
+Received Import Request.
+  Time since last request: 6.404886 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dccbfa01ed8f2c10853ba26b1d94bd') in 0.023429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 845
+========================================================================
+Received Import Request.
+  Time since last request: 5.222405 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765aaa829726452ab959d8bd38a48497') in 0.026341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 845
+========================================================================
+Received Import Request.
+  Time since last request: 2.593226 seconds.
+  path: Assets/AssetsHandMade/Rooms/XRLab.prefab
+  artifactKey: Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/XRLab.prefab using Guid(718cc73041d8e4244952ef916afae02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a020a8e222b680ed9b706cc804cc71') in 0.018023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 840
+========================================================================
+Received Import Request.
+  Time since last request: 11.889067 seconds.
+  path: Assets/AssetsHandMade/Rooms/MakerLab.prefab
+  artifactKey: Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/MakerLab.prefab using Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c286fc1cbe1c15830aaa6dc6294ab9e') in 0.029180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 663
+========================================================================
+Received Import Request.
+  Time since last request: 5.999568 seconds.
+  path: Assets/AssetsHandMade/Rooms/MakerLab.prefab
+  artifactKey: Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/MakerLab.prefab using Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4310a7c8fcf818353e4f556a15a44ef3') in 0.027496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 663
+========================================================================
+Received Import Request.
+  Time since last request: 5.034948 seconds.
+  path: Assets/AssetsHandMade/Rooms/MakerLab.prefab
+  artifactKey: Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/MakerLab.prefab using Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0801863831adff1f7b37307d9ffade1') in 0.021955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 663
+========================================================================
+Received Import Request.
+  Time since last request: 5.034323 seconds.
+  path: Assets/AssetsHandMade/Rooms/MakerLab.prefab
+  artifactKey: Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/MakerLab.prefab using Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9317b2ac005b444c3962694264db536b') in 0.020919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 663
+========================================================================
+Received Import Request.
+  Time since last request: 4.607992 seconds.
+  path: Assets/AssetsHandMade/Rooms/MakerLab.prefab
+  artifactKey: Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/MakerLab.prefab using Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b81946ad096e857d6417f27f7b004f') in 0.024951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 663
+========================================================================
+Received Import Request.
+  Time since last request: 0.973226 seconds.
+  path: Assets/AssetsHandMade/Rooms/MakerLab.prefab
+  artifactKey: Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/MakerLab.prefab using Guid(a8b7198368e23194d965e2affcd992ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49136f9b3abd3442982b091e61fe11d') in 0.023209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 658
+========================================================================
+Received Import Request.
+  Time since last request: 13.321812 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12de815f1a4b4749fc3a44d6d9fc427') in 0.025029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 797
+========================================================================
+Received Import Request.
+  Time since last request: 7.819790 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a5562389305f4597c8b0b2acae1098') in 0.030975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 797
+========================================================================
+Received Import Request.
+  Time since last request: 4.225212 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede3c63fce297d85b446ffe157feef3d') in 0.023117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 797
+========================================================================
+Received Import Request.
+  Time since last request: 2.188384 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3164d0f24fc066017bd9b191d225ea03') in 0.048445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 797
+========================================================================
+Received Import Request.
+  Time since last request: 3.367802 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af44b415a2ff26e82767bbcc0f95d44') in 0.023853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 797
+========================================================================
+Received Import Request.
+  Time since last request: 0.978771 seconds.
+  path: Assets/AssetsHandMade/Rooms/IALab.prefab
+  artifactKey: Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/IALab.prefab using Guid(b47b156981d2c4c499bf58ae342560d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3dfbe6dd631200b6f87debae5179c9') in 0.015504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 792
+========================================================================
+Received Import Request.
+  Time since last request: 17.594991 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d82d529b48e0b88dcbe777d6b3fe628') in 0.024605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 13.469148 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb40038c098ca675d7775d4ce177d1f') in 0.016405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 4.030053 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54770c1b34bbe811b638d2c3f40bac73') in 0.025338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 4.192670 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6cb711421a3efd7182db4dd7f0845') in 0.020527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 15.349592 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4145254cb0900d5b0a75a953ba7e53dd') in 0.017292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 3.964011 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37d52d0ba11c1e940d27e23ab4eae0') in 0.018254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 2.397172 seconds.
+  path: Assets/AssetsHandMade/Rooms/CyberLab.prefab
+  artifactKey: Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/CyberLab.prefab using Guid(59151f550141dd848839090784e2a06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa59ecf9f1e5c9270b7294292db9fcb7') in 0.018584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 363
+========================================================================
+Received Import Request.
+  Time since last request: 28.656352 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauZonz.prefab
+  artifactKey: Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauZonz.prefab using Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdc0eb79cd4fb9e2e50a99fd4495850') in 0.027495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 5.595401 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauZonz.prefab
+  artifactKey: Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauZonz.prefab using Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df67a7b2dba2ec3740c632336427b91') in 0.021005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 4.414731 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauZonz.prefab
+  artifactKey: Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauZonz.prefab using Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1ae7710e71522c314cc59a9c67c78c') in 0.022578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 2.393960 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauZonz.prefab
+  artifactKey: Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauZonz.prefab using Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78ad56d9670c28582b76a8e1215ad81') in 0.028110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 3.602482 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauZonz.prefab
+  artifactKey: Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauZonz.prefab using Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb2efeab7504e4d774c9fa3be578609') in 0.015087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 1.776331 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauZonz.prefab
+  artifactKey: Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauZonz.prefab using Guid(e714a51d1f2cc4e489ae9210d34ff32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf11b9e30d12f5455fa681fb85c6351') in 0.012541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 205
+========================================================================
+Received Import Request.
+  Time since last request: 12.707389 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81fac92507bf16092dcfa40e05c563c') in 0.027744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 4.209097 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b696bfac30a73ad3d51a953a42b9ab0e') in 0.020033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 2.176392 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409f5efcc26c237be1fa33f0d90d93de') in 0.017503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 5.448306 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24cf0390ab90c0071fbdfc234f5f167') in 0.018684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 4.216263 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cf889a4af897971ad1c239ca834abe') in 0.017323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 4.022925 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b73d1524f6a2a3872bd2ea86ebffe7') in 0.024499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 2.583788 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bc737f634ea0bcb3b1f7ac557344a1') in 0.014721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 1.184130 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauSeb.prefab
+  artifactKey: Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauSeb.prefab using Guid(aa3f5fd3e28bd8741afc04cd3c743ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9101a1c7df1fd31638a3c5338122e97d') in 0.010320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 5.667017 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauMousin.prefab
+  artifactKey: Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauMousin.prefab using Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94a00d0f1694f282b59e74ae96d3b9a') in 0.018223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 6.776655 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauMousin.prefab
+  artifactKey: Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauMousin.prefab using Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6b48277aa86ffc289bac8953fa9a43') in 0.017382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 5.017050 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauMousin.prefab
+  artifactKey: Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauMousin.prefab using Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b6151fb958b1d803e4446eefb39a65') in 0.019518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 2.197091 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauMousin.prefab
+  artifactKey: Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauMousin.prefab using Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45570fa0029e5860bb834a662df80b1') in 0.043139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 2.783478 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauMousin.prefab
+  artifactKey: Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauMousin.prefab using Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11585ee7c7916d58f004823596ca613a') in 0.016847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 201
+========================================================================
+Received Import Request.
+  Time since last request: 1.581631 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauMousin.prefab
+  artifactKey: Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauMousin.prefab using Guid(3e73f1cf16e50c940b9b4948cf07444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f624d0817c4ed8c8819d9373ca84bd') in 0.020674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 196
+========================================================================
+Received Import Request.
+  Time since last request: 7.467724 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa3ce72395f7dcb4d299aa2819b0c7e') in 0.017806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 329
+========================================================================
+Received Import Request.
+  Time since last request: 6.000202 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3617317469fea335892b865c5dd5a8c') in 0.027225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 329
+========================================================================
+Received Import Request.
+  Time since last request: 5.047376 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaf802830024662f7ee7ae30550e5fe') in 0.016926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 329
+========================================================================
+Received Import Request.
+  Time since last request: 2.538422 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669848752ca72da75f08e2f4744bf4c7') in 0.021782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 329
+========================================================================
+Received Import Request.
+  Time since last request: 4.007243 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1539066db7167338fe3e85cdd81895ca') in 0.025589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 329
+========================================================================
+Received Import Request.
+  Time since last request: 1.780571 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7948a0bc63172ee99b785cc30996d5b4') in 0.021835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 324
+========================================================================
+Received Import Request.
+  Time since last request: 13.062705 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87805666d34dbea62e2d87562a80cd1') in 0.011461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 5.425736 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bae9d0ad50a261cb153883f6b79eed') in 0.017909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 4.627226 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19b7d7fab926df44b8f0960ca7cad9b') in 0.018631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 4.417211 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca3733a6711b357708ab1617342e5bd') in 0.016663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 7.431450 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f568051a1a5f52f50d89c4a177bfe') in 0.012512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 1.388500 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16711309f6c19138cbfd9b2f534eedab') in 0.012969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 5.842608 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcb2cd431663cbb3fd47cd016baf4ca') in 0.013126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 6.245554 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1ecfbeef4d803f5d8448e6a65a7ca7') in 0.028202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 3.995913 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd140c32f64adbb7289e848ebfd7efd8') in 0.017310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 2.801060 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756038ed651514dfd24a02b6ae1bc2a3') in 0.018761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 4.012874 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d016ee6db4b33098b4db9eefaad55f8') in 0.018906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 14.965833 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8e5e4b702a21b8c8397fcf9575bfa3') in 0.013484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 21.145875 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b0af867ae26e4133aa44faf072a7d5') in 0.019566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 1.189092 seconds.
+  path: Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab
+  artifactKey: Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsHandMade/Rooms/BureauEnDessousMousin.prefab using Guid(018d91ea69ff5f9498456ce70e80b7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f78893d261c0dfdfc8af80f21bf22b2') in 0.013602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 326
