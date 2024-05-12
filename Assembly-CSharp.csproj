@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\LowPolyOfficeProps_LITE\About.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
