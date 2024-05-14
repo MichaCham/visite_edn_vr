@@ -10,7 +10,6 @@ public class ActivateTeleportationRay : MonoBehaviour
     public InputActionProperty rightActivate;
     public InputActionProperty rightCancel;
 
-
     // Update is called once per frame
     void Update()
     {
