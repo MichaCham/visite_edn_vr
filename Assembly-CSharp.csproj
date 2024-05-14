@@ -61,7 +61,6 @@
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\ActivateTeleportationRay.cs" />
-    <Compile Include="Assets\GameMenuManager.cs" />
     <Compile Include="Assets\AnimateHandOnInput.cs" />
     <Compile Include="Assets\ActivateGrabRay.cs" />
     <Compile Include="Assets\XRGrabInteractibleTwoAttach.cs" />
